@@ -23,8 +23,8 @@ prompt = hub.pull("hwchase17/openai-functions-agent")
 # print(prompt.messages)
 
 
-# os.environ["TAVILY_API_KEY"] = "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"
-os.environ["OPENAI_API_KEY"] = "sk-proj-9Doep5gBCCThaTXUHtIOT3BlbkFJ0s4uU5S4UWgYtTnuyoUc"
+
+os.environ["OPENAI_API_KEY"] = ""
 
 # search = TavilySearchResults()
 # print(search.invoke("who is Ghana President?"))
